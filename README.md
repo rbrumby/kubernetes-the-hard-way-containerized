@@ -14,7 +14,7 @@ Each document is numbered X.YY where X is the section & YY is the step within th
 
 - Section 0 contains the one-off preparatory steps which can be run on any machine (not necessarily a machine which will form part of the cluster)
   - [0.00: Introduces the cluster topology that the guide will create](./0.00-introduction-and-server-topology.md)
-  - [0.10: Creates a script to set environment variables throughout subsequent steps](./0.10-create-an-envireonment-script.md)
+  - [0.10: Creates a script to set environment variables throughout subsequent steps](./0.10-create-an-environment-script.md)
   - [0.20: Creates the certificates & encryption configuration for the cluster](./0.20-certificate-and-encryption-config.md)
   - [0.30: Creates a kubeconfig file for us to use as the cluster administrator](./0.30-create-admin-user-kubeconfig.md)
 
