@@ -35,6 +35,8 @@ Each document is numbered X.YY where X is the section & YY is the step within th
 - Section 4 sets up the cluster network & only needs to be done ***once for the entire cluster***
   - [4.10: Deploys kube-proxy & weave daemonsets & a CoreDNS deployment](./4.10-networking.md)
 
-- If you are creating the first control plane node, follow sections 0 - 4
-- If you are creating a subsequent control plane nodes, follow sections 1 - 3
-- If you are creating a worker node, follow section 1
+If you are creating the first control plane node, follow sections 0 - 4
+
+If you are creating a subsequent control plane nodes, follow sections 1 - 3
+
+If you are creating a worker node, follow section 1
