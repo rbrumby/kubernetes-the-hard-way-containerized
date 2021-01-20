@@ -42,3 +42,12 @@ If you are creating a subsequent control plane nodes, follow sections 1 - 3
 If you are creating a worker node, follow section 1
 
 If you just want to create a single node master / worker for development purposes, just strip down the env.sh in section 0.10 to a single host / IP address in all case & run through all sections once (but don't add the node taint in section 4).
+
+## Contributing
+If you find any errata or run into problems or have suggestions to improve this guide, please report an issue & I will do my best to fix/help.
+
+## Credits
+To create this guide, I used information primarily from studying what a kubeadm install did on another server but also got invaluable guidance from:
+- Kelsey Hightower's original [kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
+- Mumshad Mannambeth's [kubernetes-the-hard-way](https://github.com/mmumshad/kubernetes-the-hard-way)
+- Mumshad Mannambeth's excellent (paid) course [Certified Kubernetes Administrator](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
