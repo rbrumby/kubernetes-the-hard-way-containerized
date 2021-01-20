@@ -40,3 +40,5 @@ If you are creating the first control plane node, follow sections 0 - 4
 If you are creating a subsequent control plane nodes, follow sections 1 - 3
 
 If you are creating a worker node, follow section 1
+
+If you just want to create a single node master / worker for development purposes, just strip down the env.sh in section 0.10 to a single host / IP address in all case & run through all sections once (but don't add the node taint in section 4).
