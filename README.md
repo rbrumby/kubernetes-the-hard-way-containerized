@@ -50,4 +50,4 @@ If you find any errata or run into problems or have suggestions to improve this 
 To create this guide, I used information primarily from studying what a kubeadm install did on another server but also got invaluable guidance from:
 - Kelsey Hightower's original [kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way)
 - Mumshad Mannambeth's [kubernetes-the-hard-way](https://github.com/mmumshad/kubernetes-the-hard-way)
-- Mumshad Mannambeth's excellent (paid) course [Certified Kubernetes Administrator](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
+- Mumshad Mannambeth's excellent (paid-but-well-worth-the-money) course [Certified Kubernetes Administrator](https://www.udemy.com/course/certified-kubernetes-administrator-with-practice-tests/)
