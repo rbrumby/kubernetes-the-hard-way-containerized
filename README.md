@@ -1,10 +1,10 @@
 # kubernetes-the-hard-way-containerized
-Following on from Kelsey Hightower's legendary [kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) but in this version, we will create a cluster with self-hosted (containerized) control plane nodes.
+This guide was inspired by Kelsey Hightower's legendary [kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) but in this version, we will create a cluster with self-hosted (containerized) control plane nodes, similar to the way kubeadm does it.
 
-If you have installed a cluster using kubeadm, you have probably noticed that the only things that are actually installed & run directly on the nodes host OS are the container runtime (Docker, containerd, etc) & the kubelet.
+If you have installed a cluster using kubeadm, you have probably noticed that the only things that are actually installed & run directly on the host OS of the control plane nodes are the container runtime (Docker, containerd, etc) & the kubelet.
 
 This repository is aimed at guiding you through similar steps to what kubeadm does in deploying control plane & worker nodes purely for the sake of learning.
-If you want to install a cluster for real in the way kubeadm does it, I suggest installing it using... ...erm... ...kubeadm!
+If you want to install a cluster for real in the way kubeadm does it, use kubeadm!
 
 If however you want to get a deeper understanding of how the cluster is built - read on.
 
